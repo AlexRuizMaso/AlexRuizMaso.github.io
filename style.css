@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+nav ul {
+    list-style-type: none; /* Treu els punts de la llista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra els elements */
+    gap: 20px; /* Espai entre els elements del menú */
+}
+
+nav ul li {
+    display: inline; /* Opcional, assegura que els elements estiguin en línia */
+}
+nav ul li a {
+    color: white; /* Color del text en blanc */
+    text-decoration: none; /* Treu el subratllat */
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s; /* Transició per a l'efecte hover */
+}
+nav ul li a:hover {
+    color: #ffcc00; /* Color groc per l'efecte hover */
+}
+
+section h1 {
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-size: 2em;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#skills ul li {
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#skills ul li img {
+    width: 5em;
+    height: 5em;
+    padding-top: 10px;
+}
