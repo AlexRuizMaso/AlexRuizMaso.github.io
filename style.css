@@ -59,6 +59,7 @@ section h1 {
 
 #education ul{
     list-style: books;
+    margin-left: 20px;
 }
 
 #experience ul{
@@ -99,6 +100,6 @@ section h1 {
 
 #contact div a img {
     filter: brightness(0) invert(1);
-    height: 2em;
+    height: 5vw;
     margin-left: 1em;
 }
