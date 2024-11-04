@@ -59,16 +59,16 @@ section h1 {
 
 #education ul{
     list-style: books;
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 
 #experience ul{
     list-style: work;
-    margin-left: 15px;
+    margin-left: 2vw;
 }
 
 .history li {
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
     padding: 10px;
     background-color: rgb(109, 109, 109);
     border-radius: 10px;
