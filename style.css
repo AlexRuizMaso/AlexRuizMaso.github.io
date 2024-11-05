@@ -99,6 +99,10 @@ section h1 {
     padding-top: 10px;
 }
 
+#skills ul li:hover {
+    color: #ededed; /* Color groc per l'efecte hover */
+}
+
 #contact div a img {
     filter: brightness(0) invert(1);
     height: 5vw;
