@@ -87,16 +87,20 @@ section h1 {
     background-color: rgb(65, 65, 65);
     border-radius: 10px;
     margin: 10px;
-    padding: 20px 10px;
+    padding: 20px 0px;
     width: 200px;
     text-align: center;
     font-size: 1em;
 }
 
+#skills ul li p {
+    padding-right: 10px;
+}
+
 #skills ul li img {
     width: 5em;
     height: 5em;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 #skills ul li:hover {
